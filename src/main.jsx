@@ -10,6 +10,7 @@ import Main from './components/Layout/Main';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Review from './components/OrderReview/Review';
+import Contact from './components/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'review',
         element: <Review></Review>
+      },
+      {
+        path: 'contact',
+        element: <Contact></Contact>
       }
     ]
   }
